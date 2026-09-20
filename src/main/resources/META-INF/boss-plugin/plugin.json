@@ -1,0 +1,22 @@
+{
+  "manifestVersion": 1,
+  "pluginId": "ai.rever.boss.plugin.dynamic.pagecontent",
+  "displayName": "Page Content",
+  "version": "0.1.0",
+  "apiVersion": "1.0.93",
+  "minApiVersion": "1.0.93",
+  "minBossVersion": "9.4.2",
+  "mainClass": "ai.rever.boss.plugin.dynamic.pagecontent.PageContentDynamicPlugin",
+  "type": "mixed",
+  "description": "Structured page content (text, headings, links, screenshot) for BOSS plugins and agents, via a new PageContentProvider plugin API",
+  "author": "Choksi",
+  "url": "https://github.com/choksi2212/boss-plugin-page-content",
+  "panel": { "position": "right_top_bottom", "priority": 22 },
+  "sandbox": {
+    "maxThreads": 4,
+    "maxRestartAttempts": 3,
+    "heartbeatIntervalMs": 5000
+  },
+  "isolationMode": "out-of-process",
+  "fallback": "in-process"
+}
