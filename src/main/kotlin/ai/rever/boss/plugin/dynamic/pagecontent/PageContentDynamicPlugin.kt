@@ -25,7 +25,7 @@ class PageContentDynamicPlugin : DynamicPlugin {
     override val version: String = manifestVersion()
     override val description: String =
         "Structured page content (text, headings, links, screenshot) for BOSS plugins and agents, via a new PageContentProvider plugin API"
-    override val author: String = "Choksi"
+    override val author: String = "choksi2212"
     override val url: String = "https://github.com/choksi2212/boss-plugin-page-content"
 
     private var providerImpl: PageContentProviderImpl? = null
